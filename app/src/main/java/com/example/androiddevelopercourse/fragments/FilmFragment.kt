@@ -108,6 +108,9 @@ class FilmFragment : Fragment() {
         }
 //
         binding.button.setOnClickListener {
+
+            if(binding.editTextTextPersonName2.text.toString().isNotEmpty()){
+
             val id = binding.editTextTextPersonName2.text.toString()
 
 
@@ -134,7 +137,7 @@ class FilmFragment : Fragment() {
                         }
                     }
 
-
+}
 
                 }
             }
